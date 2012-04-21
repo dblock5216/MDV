@@ -136,17 +136,16 @@ var gotFouls = foul();
 	
 // end section 6
 
-
-//Boolean
-	if (winnEr === true) {
-		console.log(mjTeam + "have won the championship!!!!")
+//Start section 7
+	if (winner === true) {
+		console.log( mjTeam + "have won the championship!!!!" )
 	};
 
 	else (winner === false) {
-		console.log(mjTeam + "has lot the NBA Finals, who would have ever thought!!")
+		console.log( mjTeam + "has lot the NBA Finals, who would have ever thought!!" )
 	}
 	return winner;
-	
+// end section 7
 
 
 
