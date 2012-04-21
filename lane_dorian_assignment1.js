@@ -109,11 +109,13 @@ else {console.log("Really guy you only scored" + p + "a quarter!");
 
 // end section 5
 
+// begin section 6
+
 var quarters = [" 1st Quarter", "2nd Quarter", "3rd Quarter", "4th Quarter"];
 ppq = [11, 5, 12, 8];
 
 for (var quarternumber = 0;) quarternumber < quarters.length; quarternumber++) {
-	return ppq;    
+	return ppq[0];    
 
 if (totalFouls > foulOut) {
 	var foul = function (totalFouls) {
@@ -131,6 +133,8 @@ var gotFouls = foul();
 	console.log("You have got" + gotFouls + "personal fouls");
 	
 	gotFouls(7);
+	
+// end section 6
 
 
 //Boolean
