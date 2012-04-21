@@ -1,6 +1,6 @@
 //Project 2 Scalable Data Infrastructures//
-//Dorian Lane April 7, 2012//
-//SDI- Week 2
+//Dorian Lane April 18, 2012//
+//SDI- Week 3
 
 var  jumpMan
 	 pipPen
@@ -12,11 +12,12 @@ var  jumpMan
 	 rinGs
 	 jazz
 	 karlMalone
-     winnEr
+         winnEr
 	 foul
 	 foulout
 	 done
 	 didit
+// end section 1
 	 
 	
 	jumpMan = M.J,
