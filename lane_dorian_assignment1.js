@@ -1,8 +1,8 @@
-//Project 2 Scalable Data Infrastructures//
+//Project 3 Scalable Data Infrastructures//
 //Dorian Lane April 18, 2012//
 //SDI- Week 3
 
-var  jumpMan
+var      jumpMan
 	 pipPen
 	 graNt
 	 games
@@ -19,7 +19,7 @@ var  jumpMan
 	 didit
 // end section 1
 	 
-	
+// beginning section 2	
 	jumpMan = M.J,
 	pipPen = 2,
 	graNt = 2,
@@ -31,16 +31,16 @@ var  jumpMan
 	jazz = "scrubs",
 	karlMalone = 0,
 	winnEr = true,
-	foul = function (totalFouls) {
 	foulOut = 6,
 	done = "You have fouled out of the game",
-	didit = jumpMan + "just sealed his fate in the Hall of Fame"
+	didit = jumpMan + "just sealed his fate in the Hall of Fame",;
 	
-	personalFoul;
 	
 	console.log("Welcome everyone to the 2014 NBA Finals!!!!");
-	console.log("Tonight we feature" + jumpMan + "and" + mjTeam + "vs the " + jazz);
-	
+	console.log("Tonight we feature" + jumpMan + "and" + mjTeam + "vs the" + jazz);
+// end section 2
+
+
 	//The Setup
 	console.log("Introducing from North Carolina......", jumpMan)
 	console.log("He plays SG for the...", mjTeam)
