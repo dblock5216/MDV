@@ -64,32 +64,39 @@ if (rinGs > karlMalone) {console.log("Anyone need to borrow a ring?")};
 // end section 3
 
 //begin section 4
-var	jumpshot = { 
-	distance: "12 feet",
-	points: "2",
-	true,
-	}
-	difficulty = "medium",
-	makeShot = function () {
-	console.log(" he just made a spectacular shot");
-	}
+var	shot = {
+	"selection": [
+	"three": {
+		"distance": "24 ft",
+		"points": "3 pts",
+		"difficulty": "hard"
+	},
+	"two": {
+		"distance": "16 ft",
+		"points": "2 pts",
+		"difficulty": "medium"
+	},
+	"freethrow": {
+		"distance": "12 ft",
+		"points": "1",
+		"difficulty": "easy"
+				]
 };
 
-var key = "distance";
-if (jumpshot = true) {
-	return;makeShot;
+var makeshot = function (shot) {
+		for (var i = 0; i < shot.selection.length; i++){
+		var score = shot.selection[i];
+		console.log("distance: " + selection.distance + ", points: " + selection.points + ", difficulty: " + selection.difficulty);
+				}
+};
 
+makeshot(shot);
 
+var shotstring = shot.stringify(shot);
+console.log(shotstring);
 
-
-console.log( "Hes shooting from" + key ); 
-jumpshot.makeShot();
-makeShot;makeShot;
-
-var totalPoints = function (t) {
-	points * 1;
-	return totalpoints;
-}
+var receivedshot = shot.parse(shotstring);
+console.log(receivedshot);
 
 // end section 4
 	
