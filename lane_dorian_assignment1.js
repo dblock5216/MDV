@@ -38,18 +38,18 @@ var      jumpMan
 	
 	console.log("Welcome everyone to the 2014 NBA Finals!!!!");
 	console.log("Tonight we feature" + jumpMan + "and" + mjTeam + "vs the" + jazz);
-// end section 2
-
-
-	//The Setup
-	console.log("Introducing from North Carolina......", jumpMan)
-	console.log("He plays SG for the...", mjTeam)
-	console.log("On his hands are the championships he has won, he has....", rinGs )
-	console.log("Too bad for everyone else, I think they have....", karlMalone)
-	console.log("And he did not come alone, he brought ". pipPen, "and", graNt, "with hiim")
+	
+// The Setup
+	console.log("Introducing from North Carolina......" + jumpMan)
+	console.log("He plays SG for the..." + mjTeam)
+	console.log("On his hands are the championships he has won, he has...." + rinGs )
+	console.log("Too bad for everyone else, I think they have...."+ karlMalone)
+	console.log("And he did not come alone, he brought " + pipPen + "and" + graNt + "with him")
 	console.log("Was MJ a winner?", winnEr)
 
+// End section 2
 
+// beginning section 3
 if 	
 	(pipPen = graNt) {console.log("His airness is about to take the court with" + mjTeam);
 else {console.log("We need more bodies")
@@ -58,37 +58,56 @@ else {console.log("We need more bodies")
 
 if (rinGs > karlMalone) {console.log("Anyone need to borrow a ring?")};
 
-	else {console.log("Hard work and practice is will bring me to the top")
+	else {console.log("Hard work and practice is what will bring me to the top")
 };
 
-var shot = [Hook, foulShot, jumpShot, Three], 	
-	feet = [6, 12, 18, 24],
-	makeShot = function (feet[], shot[]) {
-	console.log(jumpMan + "jumst made a " + shot + "from" + feet + "feet!");
+// end section 3
+
+//begin section 4
+var	jumpshot = { 
+	distance: "12 feet",
+	points: "2",
+	true,
+	}
+	difficulty = "medium",
+	makeShot = function () {
+	console.log(" he just made a spectacular shot");
+	}
+};
+
+var key = "distance";
+if (jumpshot = true) {
+	return;makeShot;
+
+
+
+
+console.log( "Hes shooting from" + key ); 
+jumpshot.makeShot();
+makeShot;makeShot;
+
+var totalPoints = function (t) {
+	points * 1;
+	return totalpoints;
 }
-	
-	makeshot (foulShot, 12),
-	makeshot (Three, 24),
-	makeShot (Hook, 18),
-	makeShot (jumpShot, 6);
 
-var totalPoints = makeShot();	
-
-var getPpg = function (p) {
-	var ppg = points * game;
-	return ppg;
+// end section 4
 	
+//begin section 5
 if (totalPoints > record) {
 	return didit;
 }
 else {console.log("What a shame to come so close");
 }
 
-getPpq();
+getPpg();
 
 if (p > 22) {console.log("Wow what an all star player, no wonder he has" + rinGs + "championships");
+}
 else {console.log("Really guy you only scored" + p + "a quarter!");
 }
+
+// end section 5
 
 var quarters = [" 1st Quarter", "2nd Quarter", "3rd Quarter", "4th Quarter"];
 ppq = [11, 5, 12, 8];
