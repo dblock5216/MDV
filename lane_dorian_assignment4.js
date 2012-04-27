@@ -38,3 +38,21 @@ cashout()
 
 //this is my function to convert numbers into numbers with decimal point
 //End Volume 2
+
+//Start Volume 3
+//Is the string a URL?
+
+// this is my code to tell if a string is a url or not 
+
+
+var again = /http|https/;
+var joy = "https.ifiguredthisoutmyself.com"; 
+glad = string.match(again);
+
+function checkstring (glad) {
+    console.log("it is in the string")
+}
+else console.log("it is not");
+
+checkstring()
+// End Volume 3
