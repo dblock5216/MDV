@@ -100,3 +100,14 @@ testsite()
 
 //End Volume 5
 
+
+//Start Volume 6
+//Given a string version of a number,
+//such as "42", return the value as an actual Number, such as 42.
+
+//this is my code to turn the value of my string into an actual number
+
+var value = "4567891234"
+console.log(eval(value.valueOf()));
+
+//End Volume 6
