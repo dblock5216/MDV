@@ -111,3 +111,23 @@ var value = "4567891234"
 console.log(eval(value.valueOf()));
 
 //End Volume 6
+
+//Start Volume 7
+//Title-case a string (split into words, then uppercase the first letter of each word)
+
+
+// incomplete code i am trying to split a string and capitalize 
+
+
+function onecaponeword (great) 
+{
+var great = "Man this is challenging"
+	return 
+great.split(" ") +
+great.charAt(0).toUpperCase(1) 
+}
+onecaponeword();
+
+// at this time my return is undefined
+
+//End Volume 7
