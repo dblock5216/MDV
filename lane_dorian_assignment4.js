@@ -78,3 +78,25 @@ testnumber(quit)
 
 // i used the confirm statement (!) in line 9 after googling
 //End Volume 4
+
+//Start Volume 5
+//Does a string follow an aaa@bbb.ccc pattern like an email address?
+
+// this will be my code to test website names against
+//parameters, right now i am getting back undefined
+
+
+
+function testsite (set, mines) {
+    var set = "gravy.com"
+    var mines = /[.](?=com)/
+    var good = set.search(mines);
+if (!good)
+    console.log("welcome to world wide web");
+else 
+	console.log("your too old")    
+}
+testsite()
+
+//End Volume 5
+
