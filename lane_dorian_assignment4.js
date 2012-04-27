@@ -131,3 +131,28 @@ onecaponeword();
 // at this time my return is undefined
 
 //End Volume 7
+
+
+//Start Volume 8
+//Given an array of objects and the name of a key, return the array sorted by the value
+//of that key in each of the objects
+//why was this so hard for me lol
+
+var cars = []
+cars[0] = {make:"ford", model:"mustang", seats:"3"}
+cars[1] = {make:"chevy", model:"tahoe", seats:"7"}
+cars[2] = {make:"chrysler", model:"sebring", seats:"5"}
+cars[3] = {make:"dodge", model:"ram", seats:"4"}
+
+// this the function i assembled after 2 hours of research
+function whyisthissohard (a,b) {
+	if (a.seats < b.seats)
+		return -1;
+	if (a.seats > b.seats)
+		return 1;
+	return 0;
+}
+
+cars.sort(whyisthissohard);
+
+//End Volume 8
