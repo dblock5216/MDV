@@ -56,3 +56,25 @@ else console.log("it is not");
 
 checkstring()
 // End Volume 3
+
+//Start Volume 4
+//Does a string follow a 123-456-7890 pattern like a phone number?
+
+// this is my code to run a string against a certain parameter to tell if it is a phone number
+
+
+var quit = "123-456-7889"
+var quiz = /\(?\d{3}\)?([-\/\.])\d{3}\1\d{4}/;    
+
+function testnumber (good) {
+	var good = quit.search(quiz);
+if (!good)
+    console.log("your number is a valid number");
+else 
+	console.log("your number is invalid")    
+}
+testnumber(quit)
+
+
+// i used the confirm statement (!) in line 9 after googling
+//End Volume 4
