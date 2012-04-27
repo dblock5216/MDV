@@ -194,3 +194,19 @@ for (i = 0; i<mongoose.length; i++) {
 };
 
 //End Volume 10
+
+//Start Volume 11
+//Find the total value of just the numbers in an array
+
+
+// this is my code for this function
+
+var mew = [];
+    mew.push( 1, "a", 2, 4, "t")
+var playthe = mew.toString();             console.log(playthe)
+
+function whycantwegotothestore(mew) {  
+    return (mew > 0);  
+};
+
+//End Volume 11
