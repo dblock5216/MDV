@@ -210,3 +210,21 @@ function whycantwegotothestore(mew) {
 };
 
 //End Volume 11
+
+//Start Volume 12
+//Fuzzy-match a number to a certain percent
+
+//this is my attempt at coding a function for this method
+
+
+var goldennumber = 6
+var gym =newRegExp(/5\.0/)
+
+function killfuzzy () {
+	if goldennumber
+
+goldennumber.fuzzymatch(gym)
+
+// this was by far the hardest method to try and implement
+//End volume 12
+//End LIB!!!
