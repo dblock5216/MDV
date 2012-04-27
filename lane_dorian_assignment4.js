@@ -156,3 +156,28 @@ function whyisthissohard (a,b) {
 cars.sort(whyisthissohard);
 
 //End Volume 8
+
+//Start Volume 9
+//passing a number through an array comparing it to the numbers in the array according to a specific argument
+
+// i created two instances to implement this function 
+//because i was torn on the right way
+
+//Function 1
+var gravedigger = [];
+	gravedigger.push("4","7","12","2")
+	
+function diditwork () {
+    return Math.floor(gravedigger)
+}
+	passed = gravedigger.some(diditwork);
+	
+//Function 2
+var myarray = [3, 2, 5, 8, 9];
+var magicnumber = 7;
+function spinthatwheel (a) {
+	return a > magicnumber
+}
+
+spinthatwheel()
+//End Volume 9
