@@ -177,7 +177,20 @@ var myarray = [3, 2, 5, 8, 9];
 var magicnumber = 7;
 function spinthatwheel (a) {
 	return a > magicnumber
-}
+};
 
 spinthatwheel()
 //End Volume 9
+
+//Start Volume 10
+//return a string with the first separator changed to the second
+
+// this is my incomplete code for returning a string  with seperator changes
+
+var hard = "a,b,c";
+mongoose = hard.split(",")
+for (i = 0; i<mongoose.length; i++) {
+	console.log(i+'-'+mongoose[i]+'</>'); 
+};
+
+//End Volume 10
