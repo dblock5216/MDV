@@ -12,8 +12,8 @@
 // the code i came up with
 
 function getNewtime() {
-	var currentdate = Date.now();
-	var olddate = new Date(1998,3,24,12,45,55,777);
+	var currentdate = Date.now(); // this code as-is will get the current date
+	var olddate = new Date(1998,3,24,12,45,55,777); // this is one of the formats to manualy set a date
 	newtime = currentdate - olddate;
 	newtime;newtime
 };
@@ -29,8 +29,8 @@ function getNewtime() {
 
 // this is the code i assembled
 function cashout () {
-	var money = 12;
-	var conversion = money.toFixed(2);
+	var money = 12; // change this to whatever amount fits
+	var conversion = money.toFixed(2); // the number in parentheses is going to dictate the number of decimal place
 	return conversion;
 };
 
@@ -44,16 +44,12 @@ cashout()
 
 // this is my code to tell if a string is a url or not 
 
-
-var again = /http|https/;
-var joy = "https.ifiguredthisoutmyself.com"; 
-glad = string.match(again);
-
 function checkstring (glad) {
+    var again = /http|https/; //here i set the pattern to match the string against
+    var joy = "https.ifiguredthisoutmyself.com"; 
+glad = joy.match(again);// here i tell the computer to match the string against my pattern
     console.log("it is in the string")
-}
-else console.log("it is not");
-
+};
 checkstring()
 // End Volume 3
 
