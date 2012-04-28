@@ -58,13 +58,13 @@ checkstring()
 
 // this is my code to run a string against a certain parameter to tell if it is a phone number
 
-
-var quit = "123-456-7889"
-var quiz = /\(?\d{3}\)?([-\/\.])\d{3}\1\d{4}/;    
-
 function testnumber (good) {
-	var good = quit.search(quiz);
-if (!good)
+	var quit = "123-456-7889"
+	var quiz = /\(?\d{3}\)?([-\/\.])\d{3}\1\d{4}/;/ this pattern looks for 3 digits, a hyphen,
+// 3 more digits another hyphen, and finally 4 more digits, in that order
+
+	var good = quit.search(quiz); // i am telling computer to match the string up against the pattern 
+if (!good)// confirm statement (!) in line 9 after googling( thank you lynda.com)
     console.log("your number is a valid number");
 else 
 	console.log("your number is invalid")    
@@ -72,7 +72,7 @@ else
 testnumber(quit)
 
 
-// i used the confirm statement (!) in line 9 after googling
+// confirm statement (!) in line 9 after googling
 //End Volume 4
 
 //Start Volume 5
@@ -85,8 +85,8 @@ testnumber(quit)
 
 function testsite (set, mines) {
     var set = "gravy.com"
-    var mines = /[.](?=com)/
-    var good = set.search(mines);
+    var mines = /[.](?=com)///setting the pattern to look for .com at the end of the string
+    var good = set.search(mines);// matching string against pattern
 if (!good)
     console.log("welcome to world wide web");
 else 
@@ -104,7 +104,9 @@ testsite()
 //this is my code to turn the value of my string into an actual number
 
 var value = "4567891234"
-console.log(eval(value.valueOf()));
+console.log(eval(value.valueOf()));// evaluates the value of the string and since a string is always gonna 
+//returned as a number it comes back as a number
+
 
 //End Volume 6
 
@@ -119,8 +121,8 @@ function onecaponeword (great)
 {
 var great = "Man this is challenging"
 	return 
-great.split(" ") +
-great.charAt(0).toUpperCase(1) 
+great.split(" ") +// i am splitting the string at every instance of whitespace
+great.charAt(0).toUpperCase(1) //starting at the first character i want to capitalize each element of the string
 }
 onecaponeword();
 
@@ -134,15 +136,16 @@ onecaponeword();
 //of that key in each of the objects
 //why was this so hard for me lol
 
-var cars = []
-cars[0] = {make:"ford", model:"mustang", seats:"3"}
+var cars = []//create blank array
+cars[0] = {make:"ford", model:"mustang", seats:"3"}//push(for lack of better words) each object into the array
 cars[1] = {make:"chevy", model:"tahoe", seats:"7"}
 cars[2] = {make:"chrysler", model:"sebring", seats:"5"}
 cars[3] = {make:"dodge", model:"ram", seats:"4"}
 
 // this the function i assembled after 2 hours of research
-function whyisthissohard (a,b) {
-	if (a.seats < b.seats)
+function whyisthissohard (a,b) {//using the a, b scheme i bring this into my function	 
+	if (a.seats < b.seats) // by assigning the seats key to the a, b scheme i can now tell it to compare my "seats" and 
+	//return them in order from smallest to largest...cool 
 		return -1;
 	if (a.seats > b.seats)
 		return 1;
@@ -160,19 +163,19 @@ cars.sort(whyisthissohard);
 //because i was torn on the right way
 
 //Function 1
-var gravedigger = [];
-	gravedigger.push("4","7","12","2")
 	
 function diditwork () {
-    return Math.floor(gravedigger)
+	var gravedigger = [];
+	gravedigger.push("4","7","12","2")//pushed numbers into array
+    return Math.floor(gravedigger)//telling it to round down
 }
-	passed = gravedigger.some(diditwork);
+	passed = gravedigger.some(diditwork);//using .some syntax i am comparing the numbers in the array to the parameters of my function
 	
 //Function 2
 var myarray = [3, 2, 5, 8, 9];
 var magicnumber = 7;
 function spinthatwheel (a) {
-	return a > magicnumber
+	return a.myarray > magicnumber //using a variable key scheme i compare the array to the predetermined number
 };
 
 spinthatwheel()
@@ -184,9 +187,9 @@ spinthatwheel()
 // this is my incomplete code for returning a string  with seperator changes
 
 var hard = "a,b,c";
-mongoose = hard.split(",")
-for (i = 0; i<mongoose.length; i++) {
-	console.log(i+'-'+mongoose[i]+'</>'); 
+mongoose = hard.split(",")// i split the string at each comma creating an array of the remainder
+for (i = 0; i<mongoose.length; i++) {// for loop cycling through the array splitting and seperating the string
+	console.log(i+'-'+mongoose[i]+'</>'); //console logs the new array with each element complimented by the previous separator
 };
 
 //End Volume 10
@@ -197,12 +200,11 @@ for (i = 0; i<mongoose.length; i++) {
 
 // this is my code for this function
 
-var mew = [];
+function whycantwegotothestore(mew) {
+	  var mew = [];
     mew.push( 1, "a", 2, 4, "t")
-var playthe = mew.toString();             console.log(playthe)
-
-function whycantwegotothestore(mew) {  
-    return (mew > 0);  
+var playthe = mew.toString();  //combines string  
+    return playthe; //returns created string above 
 };
 
 //End Volume 11
@@ -214,12 +216,11 @@ function whycantwegotothestore(mew) {
 
 
 var goldennumber = 6
-var gym =newRegExp(/5\.0/)
+var gym =newRegExp(/5\.0/)//created expression to look for any integer = to 5
 
-function killfuzzy () {
-	if goldennumber
-
+function killfuzzy () {	
 goldennumber.fuzzymatch(gym)
+//i could go no further, even with google
 
 // this was by far the hardest method to try and implement
 //End volume 12
