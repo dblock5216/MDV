@@ -64,3 +64,25 @@ var didyouguard = function(t) {
 return;didyouguard;
 didyouguard(9);
 };
+
+
+console.log("I have to do better than this, this is what I have always wanted.");
+console.log("The next week....");
+
+var beatduty = function (true) {
+    console.log(noob + " you did it, I feel as if i can trust you now.");
+};
+beatduty("true");
+
+//combatives tournament
+	console.log("Word of a combatives tournament arose and " + noob + " always had a passion for fighting");
+	console.log("I'm gonna join, " + noob + " said. But I must be ready");
+var  getready = function () {
+	console.log("TRAINING FOR NEXT 2 WEEKS")
+        return;getready
+};
+
+getready();
+console.log("Finally ready, " + noob + "showed up the day of the tournament");
+console.log(georgia + could barely watch as he heard the results of each match");
+	
