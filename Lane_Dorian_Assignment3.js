@@ -86,3 +86,32 @@ getready();
 console.log("Finally ready, " + noob + "showed up the day of the tournament");
 console.log(georgia + could barely watch as he heard the results of each match");
 	
+	
+var welterweight = ["Mike", "Charles", "Jim", "Chad"],
+	fighttimes = [ 60, 30, 120, 90];
+var entertourney = function () {
+	var howin = welterweight[fight],
+		results = fighttimes[fight];
+		console.log( noob + " beat " + howin + " in " + results + " seconds!");
+}
+var welterweight = ["Mike", "Charles", "Jim", "Chad"],
+	fighttimes = [ 60, 30, 120, 90];
+for (var fight = 0; fight< welterweight.length; fight++) {
+	entertourney();
+}
+console.log("noob + " won!");
+console.log("After winning the tournament, " + noob + " decided to try the post ruck march.");
+var miles = 15
+var endpoint = 0
+var journey = function () {
+while (miles > endpoint) {
+	console.log("Not too much longer only " + miles + " miles left to go!")
+	 miles--;
+};
+
+if (miles === endpoint) {
+	console.log("You have finished the road march.")
+}
+	};
+	journey();
+
