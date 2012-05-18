@@ -115,3 +115,44 @@ if (miles === endpoint) {
 	};
 	journey();
 
+
+console.log("After winning the tournament things were looking up for " + noob + ", he even got some new squadmates");
+console.log("Whats your names and where are you from?" + noob + " said with a big grin");
+
+var battleroster = {
+    "battlebuddies": {
+	"0000001":
+	{
+	"name": "Dave,",
+	"hometown": "Texas",
+	"age": 27
+	},
+	"0000002":
+	{
+	"name": "Joe",
+	"hometown": "Chicago",
+	"age": 36
+	},
+	"0000003":
+	{
+	"name": "Matt",
+	"hometown": "New York",
+	"age": 19
+        }
+    }};
+
+for (var key in battleroster.battlebuddies) {
+	var battlebuddy = battleroster.battlebuddies[key]
+};
+
+
+var roster = [ battleroster.battlebuddies["0000001"],
+battleroster.battlebuddies["0000002"],
+battleroster.battlebuddies["0000003"]
+];
+var assign = function(list) {
+console.log(list);
+};
+assign(roster);
+
+console.log("I think were gonna have some fun with you guys, welcome to " + where + "!"
