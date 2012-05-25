@@ -85,6 +85,53 @@ conversion("99")
 
 //End Volume 6
 
+//Start Volume 8
+//Given an array of objects and the name of a key, return the array sorted by the value
+//of that key in each of the objects
+
+var cars = []//create blank array
+cars[0] = {make:"ford", model:"mustang", seats:"3"}//push(for lack of better words) each object into the array
+cars[1] = {make:"chevy", model:"tahoe", seats:"7"}
+cars[2] = {make:"chrysler", model:"sebring", seats:"5"}
+cars[3] = {make:"dodge", model:"ram", seats:"4"}
+
+function whyisthissohard (a,b)//Object Argument Assignment 3 {	 
+	if (a.seats < b.seats) 
+		return -1;
+	if (a.seats > b.seats)  //Nested Conditional Logic Assignment Project 1
+		return 1;
+	else
+	return 0;
+	return whyisthissohard;//Object Return Assignment 3
+}
+
+cars.sort(whyisthissohard);
+
+//End Volume 8
+
+//Start Volume 9
+function spinthatwheel (array, number)//Array Argument Assignment3 {
+  for (var i = array[i]; array[i] > number; array[i]++) {
+  	return number < array[i];  //Array Return Assignment 2
+    }
+};
+var one = [2, 3, 6];
+var two = [9, 4, 7];
+var three = one.concat(two);//Accessor Method Assignment 3
+spinthatwheel([12, 2, 15, 58, 9], 1125);
+  
+  };
+  
+//End Volume 9
+
+//Start Volume 10
+function round2(string) {
+mongoose = string.split(",")
+for (i = 0; i<mongoose.length; i++) {
+	console.log(i+'-'+mongoose[i]+'</>'); 
+};
+round2("Better not play with me, or you gonna get the axe, the bomb , and the makeup kit ");
+
 //Start Volume 7
 //Title-case a string (split into words, then uppercase the first letter of each word)
  
