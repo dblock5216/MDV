@@ -10,13 +10,22 @@
 
 
 // the code i came up with
-
-function getNewtime() {
-	var currentdate = Date.now(); // this code as-is will get the current date
-	var olddate = new Date(1998,3,24,12,45,55,777); // this is one of the formats to manualy set a date
-	newtime = currentdate - olddate;
-	newtime;newtime
+	
+var wastetime = function() {
+	console.log("Time has elapsed")
 };
+var getnewtime = function() {
+	var currentdate = new Date(); // this code as-is will get the current date
+	var olddate = new Date(); // this is one of the formats to manualy set a date
+	newtime = currentdate - olddate;
+	console.log("Time difference: " + String(currentdate - olddate) + ".");
+	return;getnewtime
+};
+wastetime();
+getnewtime();///GO
+	
+	
+
 
 // this shows the difference between two different dates
 //End Volume 1
@@ -28,13 +37,11 @@ function getNewtime() {
 
 
 // this is the code i assembled
-function cashout () {
-	var money = 12; // change this to whatever amount fits
-	var conversion = money.toFixed(2); // the number in parentheses is going to dictate the number of decimal place
-	return conversion;
-};
-
-cashout()
+function assembleNumber(num, places) {
+	var finishedproduct = Math.round(num*Math.pow(10,places))/Math.pow(10,places);
+	return finishedproduct;
+}
+assembleNumber(20, 2);
 
 //this is my function to convert numbers into numbers with decimal point
 //End Volume 2
@@ -44,13 +51,17 @@ cashout()
 
 // this is my code to tell if a string is a url or not 
 
-function checkstring (glad) {
-    var again = /http|https/; //here i set the pattern to match the string against
-    var joy = "https.ifiguredthisoutmyself.com"; 
-glad = joy.match(again);// here i tell the computer to match the string against my pattern
-    console.log("it is in the string")
+function checkstring (sitename) {
+    var regex = /http|https|www|.com/, 
+    check = sitename.match(regex);
+    return;check;
+if (!finish) {
+    console.log("It is validated!")
+    }
 };
-checkstring()
+checkstring("www.google.com")
+
+
 // End Volume 3
 
 //Start Volume 4
@@ -58,18 +69,14 @@ checkstring()
 
 // this is my code to run a string against a certain parameter to tell if it is a phone number
 
-function testnumber (good) {
-	var quit = "123-456-7889"
-	var quiz = /\(?\d{3}\)?([-\/\.])\d{3}\1\d{4}/;/ this pattern looks for 3 digits, a hyphen,
-// 3 more digits another hyphen, and finally 4 more digits, in that order
+var testnumber = function(phone) {
+    var regex = /^[2-9]\d{2}-\d{3}-\d{4}$/;
+    var good = phone.search(regex);
+    return;good
+};
+testnumber("apples")
 
-	var good = quit.search(quiz); // i am telling computer to match the string up against the pattern 
-if (!good)// confirm statement (!) in line 9 after googling( thank you lynda.com)
-    console.log("your number is a valid number");
-else 
-	console.log("your number is invalid")    
-}
-testnumber(quit)
+
 
 
 // confirm statement (!) in line 9 after googling
@@ -78,21 +85,17 @@ testnumber(quit)
 //Start Volume 5
 //Does a string follow an aaa@bbb.ccc pattern like an email address?
 
-// this will be my code to test website names against
-//parameters, right now i am getting back undefined
+function testsite(email) {
+    var mines = /^w\/[.](?=com)/
+    var format = email.search(mines);
+    return;true;
+if (email = true) {
+    console.log("Would you ike to check your email?")
 
+};
+testsite("www.johnny6@mike.com");
+};
 
-
-function testsite (set, mines) {
-    var set = "gravy.com"
-    var mines = /[.](?=com)///setting the pattern to look for .com at the end of the string
-    var good = set.search(mines);// matching string against pattern
-if (!good)
-    console.log("welcome to world wide web");
-else 
-	console.log("your too old")    
-}
-testsite()
 
 //End Volume 5
 
@@ -102,10 +105,12 @@ testsite()
 //such as "42", return the value as an actual Number, such as 42.
 
 //this is my code to turn the value of my string into an actual number
+function conversion(number) {
+   doit = eval(number.valueOf())
+    console.log(doit)
+};
 
-var value = "4567891234"
-console.log(eval(value.valueOf()));// evaluates the value of the string and since a string is always gonna 
-//returned as a number it comes back as a number
+conversion("99")
 
 
 //End Volume 6
@@ -117,14 +122,19 @@ console.log(eval(value.valueOf()));// evaluates the value of the string and sinc
 // incomplete code i am trying to split a string and capitalize 
 
 
-function onecaponeword (great) 
-{
-var great = "Man this is challenging"
-	return 
-great.split(" ") +// i am splitting the string at every instance of whitespace
-great.charAt(0).toUpperCase(1) //starting at the first character i want to capitalize each element of the string
-}
-onecaponeword();
+function doit (string) {
+        
+        var iwasright = string.split(" ");
+           
+for (var i = ""; i < iwasright; i++) {
+     console.log(iwasright)
+    
+    }
+};
+doit("walmart really has good juice");
+///Need to do CAPS
+
+
 
 // at this time my return is undefined
 
@@ -173,12 +183,21 @@ function diditwork () {
 	
 //Function 2
 var myarray = [3, 2, 5, 8, 9];
-var magicnumber = 7;
-function spinthatwheel (a) {
-	return a.myarray > magicnumber //using a variable key scheme i compare the array to the predetermined number
-};
+var magicnumber = number;
+function spinthatwheel (array, number) {
+  for (var i = magicnumber; i > array; i++) {
+  	return magicnumber > array[i];
 
-spinthatwheel()
+  
+  array.forEach(spinthatwheel(number) {
+  	console.log("");
+  };
+  
+
+
+return myarray > magicnumber; 
+};
+spinthatwheel(9);
 //End Volume 9
 
 //Start Volume 10
@@ -186,11 +205,14 @@ spinthatwheel()
 
 // this is my incomplete code for returning a string  with seperator changes
 
-var hard = "a,b,c";
-mongoose = hard.split(",")// i split the string at each comma creating an array of the remainder
-for (i = 0; i<mongoose.length; i++) {// for loop cycling through the array splitting and seperating the string
-	console.log(i+'-'+mongoose[i]+'</>'); //console logs the new array with each element complimented by the previous separator
+
+
+function round2(string) {
+mongoose = string.split(",")
+for (i = 0; i<mongoose.length; i++) {
+	console.log(i+'-'+mongoose[i]+'</>'); 
 };
+round2("Better not play with me, or you gonna get the axe, the bomb , and the makeup kit ");
 
 //End Volume 10
 
@@ -200,12 +222,14 @@ for (i = 0; i<mongoose.length; i++) {// for loop cycling through the array split
 
 // this is my code for this function
 
-function whycantwegotothestore(mew) {
-	  var mew = [];
-    mew.push( 1, "a", 2, 4, "t")
-var playthe = mew.toString();  //combines string  
-    return playthe; //returns created string above 
+function compare(array) {
+    var re = /d/;
+    bigsean = array.search(re),
+    doit = eval(bigsean.valueOf()),
+    console.log(doit)
 };
+
+compare("[4, f, 7, m, 9]");
 
 //End Volume 11
 
