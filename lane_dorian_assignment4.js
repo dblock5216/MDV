@@ -132,6 +132,33 @@ for (i = 0; i<mongoose.length; i++) {
 };
 round2("Better not play with me, or you gonna get the axe, the bomb , and the makeup kit ");
 
+//End Volume 10
+
+//Start Volume 11
+
+function compare(array) {
+    var re = /d/;
+    bigsean = array.search(re),
+    doit = eval(bigsean.valueOf()),
+    console.log(doit)
+};
+
+compare("[4, f, 7, m, 9]");
+
+//End Volume 11
+
+//Start Volume 12
+//Fuzzy-match a number to a certain percent
+
+function killfuzzy (number) {	
+	var gym =newRegExp(/5\.0/)
+	var approach = number.fuzzymatch(gym)
+	console.log(approach)
+	};
+killfuzzy("5")
+
+//End volume 12
+//End LIB!!!
 //Start Volume 7
 //Title-case a string (split into words, then uppercase the first letter of each word)
  
