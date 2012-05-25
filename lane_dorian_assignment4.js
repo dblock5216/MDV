@@ -84,3 +84,20 @@ function conversion(number) {
 conversion("99")
 
 //End Volume 6
+
+//Start Volume 7
+//Title-case a string (split into words, then uppercase the first letter of each word)
+ 
+function doit (string) {
+        
+        var iwasright = string.split(" ");
+           
+for (var i = ""; i < iwasright; i++) {
+     console.log(iwasright)
+    
+    }
+};
+doit("walmart really has good juice");
+
+
+//End Volume 7
