@@ -36,3 +36,26 @@ assembleNumber(20, 2);
 
 //this is my function to convert numbers into numbers with decimal point
 //End Volume 2
+
+//Start Volume 3
+//Is the string a URL?
+function checkstring (sitename)//String Argument Assignment 3 {
+    var re = /http|https|www|.com/, 
+    check = sitename.match(re);
+    return true|false;//Boolean Return Assignment 2
+};
+checkstring("www.google.com");
+
+// End Volume 3
+
+//Start Volume 4
+//Does a string follow a 123-456-7890 pattern like a phone number?
+
+var testnumber = function(phone) {
+    var re = /^[2-9]\d{2}-\d{3}-\d{4}$/;
+    var good = phone.match(re);
+    return good;
+};
+testnumber("1-800-440-7788")
+
+//End Volume 4
