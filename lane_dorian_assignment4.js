@@ -59,3 +59,28 @@ var testnumber = function(phone) {
 testnumber("1-800-440-7788")
 
 //End Volume 4
+
+//Start Volume 5
+//Does a string follow an aaa@bbb.ccc pattern like an email address?
+
+function testsite(email) {
+    var mines = /[.](?=com)/
+    var format = email.match(mines);
+    return format;
+};
+testsite(".com");
+
+//End Volume 5
+
+
+//Start Volume 6
+//Given a string version of a number,
+//such as "42", return the value as an actual Number, such as 42.
+function conversion(number) {
+   doit = eval(number.valueOf())
+    console.log(doit)
+};
+
+conversion("99")
+
+//End Volume 6
