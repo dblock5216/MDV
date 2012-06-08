@@ -1,7 +1,7 @@
 
 //Author: Dorian Lane
 //SDI-Week 2 Assignment
-//May 10, 2012
+//June 7th, 2012
 //Project 2
 
 
@@ -32,96 +32,3 @@ if (team > squad) {
 } 
 else {console.log(" AYE!!! " + battlebuddy + " you and " + recruit + " go grab more soldiers and meet me at CQ ");
 };
-
-//Start Week 2 
-//For loop
-for (var days = 0;  days < 5; days++) {
-	console.log(daddy + " woke us up on day " + days + " at five am to go running six miles singing the same song.")
-};
-if (days = 5) {
-    console.log("The only day he wouldn't run was Sunday, the Holy Day.")
-}; 
-
-console.log("After PT, we would all gather around to see who could do the most pushups.");
-//maxpushups function
-
-var maxpushups = function (m) {
-	var power = 1;
-	var max = 1;
-	var maxedout = m * power
-	console.log(" Man " + recruit +  " you did " + maxedout + " pushups.")
-	return maxpushups;
-};
-
-alert;maxpushups();
-
-console.log("Suddenly the sergeant major bursts in... ")
-var  seesmaj = function () {
-	console.log("AT EASE!!!!")
-        return seesmaj;
-};
-
-seesmaj();
-
-
-
-//Boolean
-console.log("The next morning, at the PT test...."); 
-
-var didyourun = function (l) {
-	var lapsran = undefined;
-	if (l <= 8) {
-		console.log("Good job you have completed the run.")
-}
-    else {console.log("you have failed to completed the 2 mile run.")
-}
-return didyourun;
-};
-didyourun();
-
-
-console.log("I have to try harder next time, this is what I have always wanted.");
-console.log("The next week....");
-
-var beatrun = function (didyourun) {
-    console.log(" you did it, you finally conquered the 2 mile run.");
-};
-beatrun(8);
-//combatives tournament
-	console.log(recruit + " decided on combatives hoping to find his rise to fam.e");
-	console.log("Good job " + recruit + " im impressed, here are your results:");
-var welterweight = ["Mike", "Charles", "Jim", "Chad"],
-	fighttimes = [ 60, 30, 120, 90];
-var entertourney = function () {
-	var howin = welterweight[fight],
-		results = fighttimes[fight];
-		console.log( "You beat " + howin + " in " + results + " seconds!");
-}
-var welterweight = ["Mike", "Charles", "Jim", "Chad"],
-	fighttimes = [ 60, 30, 120, 90];
-for (var fight = 0; fight < welterweight.length; fight++) {
-	entertourney();
-}
-console.log("You won!");
-
-//While loop
-console.log("after winning the tournament, " + recruit + " decided to try the death march.");
-var miles = 15
-var endpoint = 0
-var journey = function (m) {
-	m = miles;
-while (m > endpoint) {
-	console.log("We only have " + m + " miles left to go!")
-	 m--;
-};
-
-if (miles === endpoint) {
-	console.log("You have finished the road march.")
-}
-	};
-	journey();
-console.log("As " + recruit + " reflects on his journey from civillain to soldier and how " + daddy + " had taught him to be a soldier.");
-
-console.log("Just as" + recruit + " was finishing his cigarette, in walks the Sergeant Major..... ");
-alert seesmaj();
-
