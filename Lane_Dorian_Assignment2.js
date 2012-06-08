@@ -103,3 +103,25 @@ for (var fight = 0; fight < welterweight.length; fight++) {
 	entertourney();
 }
 console.log("You won!");
+
+//While loop
+console.log("after winning the tournament, " + recruit + " decided to try the death march.");
+var miles = 15
+var endpoint = 0
+var journey = function (m) {
+	m = miles;
+while (m > endpoint) {
+	console.log("We only have " + m + " miles left to go!")
+	 m--;
+};
+
+if (miles === endpoint) {
+	console.log("You have finished the road march.")
+}
+	};
+	journey();
+console.log("As " + recruit + " reflects on his journey from civillain to soldier and how " + daddy + " had taught him to be a soldier.");
+
+console.log("Just as" + recruit + " was finishing his cigarette, in walks the Sergeant Major..... ");
+alert seesmaj();
+
