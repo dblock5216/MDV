@@ -62,3 +62,44 @@ var  seesmaj = function () {
 };
 
 seesmaj();
+
+
+
+//Boolean
+console.log("The next morning, at the PT test...."); 
+
+var didyourun = function (l) {
+	var lapsran = undefined;
+	if (l <= 8) {
+		console.log("Good job you have completed the run.")
+}
+    else {console.log("you have failed to completed the 2 mile run.")
+}
+return didyourun;
+};
+didyourun();
+
+
+console.log("I have to try harder next time, this is what I have always wanted.");
+console.log("The next week....");
+
+var beatrun = function (didyourun) {
+    console.log(" you did it, you finally conquered the 2 mile run.");
+};
+beatrun(8);
+//combatives tournament
+	console.log(recruit + " decided on combatives hoping to find his rise to fam.e");
+	console.log("Good job " + recruit + " im impressed, here are your results:");
+var welterweight = ["Mike", "Charles", "Jim", "Chad"],
+	fighttimes = [ 60, 30, 120, 90];
+var entertourney = function () {
+	var howin = welterweight[fight],
+		results = fighttimes[fight];
+		console.log( "You beat " + howin + " in " + results + " seconds!");
+}
+var welterweight = ["Mike", "Charles", "Jim", "Chad"],
+	fighttimes = [ 60, 30, 120, 90];
+for (var fight = 0; fight < welterweight.length; fight++) {
+	entertourney();
+}
+console.log("You won!");
