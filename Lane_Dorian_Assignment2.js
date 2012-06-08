@@ -32,3 +32,33 @@ if (team > squad) {
 } 
 else {console.log(" AYE!!! " + battlebuddy + " you and " + recruit + " go grab more soldiers and meet me at CQ ");
 };
+
+//Start Week 2 
+//For loop
+for (var days = 0;  days < 5; days++) {
+	console.log(daddy + " woke us up on day " + days + " at five am to go running six miles singing the same song.")
+};
+if (days = 5) {
+    console.log("The only day he wouldn't run was Sunday, the Holy Day.")
+}; 
+
+console.log("After PT, we would all gather around to see who could do the most pushups.");
+//maxpushups function
+
+var maxpushups = function (m) {
+	var power = 1;
+	var max = 1;
+	var maxedout = m * power
+	console.log(" Man " + recruit +  " you did " + maxedout + " pushups.")
+	return maxpushups;
+};
+
+alert;maxpushups();
+
+console.log("Suddenly the sergeant major bursts in... ")
+var  seesmaj = function () {
+	console.log("AT EASE!!!!")
+        return seesmaj;
+};
+
+seesmaj();
