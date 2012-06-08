@@ -22,7 +22,7 @@ var recruit = "PVT Lane",
 	console.log(ghost + " ...we will be joining you into a " + team + " man team but i still want you to to remember that you are a still part of a bigger " + squad + " man squad ");
 
 
-if (pain = true) {
+if (pain == true) {
 	console.log(" Man, I think I made the wrong choice by signing up!! ")
 }
 else {console.log(" Looks like the Army has changed from when my father was in, things have gotten easier ")
@@ -44,21 +44,21 @@ if (days = 5) {
 
 console.log("After PT, we would all gather around to see who could do the most pushups.");
 //maxpushups function
-var power = 1;
-var max = 1;
 
 var maxpushups = function (m) {
+	var power = 1;
+	var max = 1;
 	var maxedout = m * power
 	console.log(" Man " + recruit +  " you did " + maxedout + " pushups.")
-	return;maxpushups
+	return maxpushups;
 };
 
-maxpushups(76);
+alert;maxpushups();
 
 console.log("Suddenly the sergeant major bursts in... ")
 var  seesmaj = function () {
 	console.log("AT EASE!!!!")
-        return;seesmaj
+        return seesmaj;
 };
 
 seesmaj();
@@ -67,14 +67,15 @@ seesmaj();
 
 //Boolean
 console.log("The next morning, at the PT test...."); 
-var lapsran = undefined;
+
 var didyourun = function (l) {
+	var lapsran = undefined;
 	if (l <= 8) {
 		console.log("Good job you have completed the run.")
 }
-    else {console.log(recruit + "you have failed to completed the 2 mile run.")
+    else {console.log("you have failed to completed the 2 mile run.")
 }
-return;didyourun
+return didyourun;
 };
 didyourun();
 
@@ -83,7 +84,7 @@ console.log("I have to try harder next time, this is what I have always wanted."
 console.log("The next week....");
 
 var beatrun = function (didyourun) {
-    console.log(recruit + " you did it, you finally conquered the 2 mile run.");
+    console.log(" you did it, you finally conquered the 2 mile run.");
 };
 beatrun(8);
 //combatives tournament
@@ -98,7 +99,7 @@ var entertourney = function () {
 }
 var welterweight = ["Mike", "Charles", "Jim", "Chad"],
 	fighttimes = [ 60, 30, 120, 90];
-for (var fight = 0; fight< welterweight.length; fight++) {
+for (var fight = 0; fight < welterweight.length; fight++) {
 	entertourney();
 }
 console.log("You won!");
@@ -107,10 +108,11 @@ console.log("You won!");
 console.log("after winning the tournament, " + recruit + " decided to try the death march.");
 var miles = 15
 var endpoint = 0
-var journey = function () {
-while (miles > endpoint) {
-	console.log("We only have " + miles + " miles left to go!")
-	 miles--;
+var journey = function (m) {
+	m = miles;
+while (m > endpoint) {
+	console.log("We only have " + m + " miles left to go!")
+	 m--;
 };
 
 if (miles === endpoint) {
@@ -118,7 +120,8 @@ if (miles === endpoint) {
 }
 	};
 	journey();
-console.log("As " + recruit + " smokes a cigarette with " + battlebuddy + " he reflects on his journey from civillain to soldier and how " + daddy + " had taught him to soldier.");
+console.log("As " + recruit + " reflects on his journey from civillain to soldier and how " + daddy + " had taught him to be a soldier.");
 
-
+console.log("Just as" + recruit + " was finishing his cigarette, in walks the Sergeant Major..... ");
+alert seesmaj();
 
