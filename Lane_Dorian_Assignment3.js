@@ -40,4 +40,31 @@ var battleroster = {
         }
     }};
 	
- 
+  
+	
+	console.log(georgia +  " thought it would be a good idea to drive to " + where + "."),                                                                                                                                                                                                                                                                  
+	console.log("Lets just in the " + car + " says " + georgia + " or you will be here for the next nine weeks "),
+	console.log("Haha, funny guy"),
+	console.log(team + " made the " + days + " day trip to " + where + ", what road warriors! ");
+
+
+if (tired = true) {
+	console.log(" Man, what a long journey!! ")
+}
+else {console.log(" Looks like the Army has changed from when my father was in")
+}
+var daysallowed = 4
+if (days > daysallowed) {
+	console.log( " Wonderful, we both have made it with enough time remaining, so we both get bonuses.") 
+} 
+else {console.log("What took you us so long?");
+};
+
+
+console.log("The next morning at pt...");
+console.log("I wonder how many laps I can run?")
+var runlaps = function (m) {
+	var maxedout = m * speed
+	console.log(" Wow " + noob +  " you ran " + maxedout + " laps.")
+	return runlaps;
+};
