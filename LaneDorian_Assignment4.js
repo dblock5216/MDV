@@ -22,3 +22,24 @@ function conversion(number) {
 };
 
 conversion("99")
+
+//Given an array of objects and the name of a key, return the array sorted by the value
+//of that key in each of the objects
+
+var cars = []//create blank array
+cars[0] = {make:"ford", model:"mustang", seats:"3"}//push(for lack of better words) each object into the array
+cars[1] = {make:"chevy", model:"tahoe", seats:"7"}
+cars[2] = {make:"chrysler", model:"sebring", seats:"5"}
+cars[3] = {make:"dodge", model:"ram", seats:"4"}
+
+function whyisthissohard (a,b)//Object Argument Assignment 3 {	 
+	if (a.seats < b.seats) 
+		return -1;
+	if (a.seats > b.seats)  //Nested Conditional Logic Assignment Project 1
+		return 1;
+	else
+	return 0;
+	return whyisthissohard;//Object Return Assignment 3
+}
+
+cars.sort(whyisthissohard);
