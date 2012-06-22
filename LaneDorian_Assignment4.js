@@ -43,3 +43,13 @@ function whyisthissohard (a,b)//Object Argument Assignment 3 {
 }
 
 cars.sort(whyisthissohard);
+
+//Find the total value of just the numbers in an array, even if some of the items are not numbers.
+function compare(array) {
+    var re = /d/;
+    bigsean = array.search(re),
+    doit = eval(bigsean.valueOf()),
+    console.log(doit)
+};
+
+compare("[4, f, 7, m, 9]");
