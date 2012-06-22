@@ -53,3 +53,12 @@ function compare(array) {
 };
 
 compare("[4, f, 7, m, 9]");
+
+//Does a string follow a 123-456-7890 pattern like a phone number?
+
+var testnumber = function(phone) {
+    var re = /^[2-9]\d{2}-\d{3}-\d{4}$/;
+    var good = phone.match(re);
+    return true|false;
+};
+testnumber("1-800-440-7788")
