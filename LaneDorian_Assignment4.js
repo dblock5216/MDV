@@ -62,3 +62,12 @@ var testnumber = function(phone) {
     return true|false;
 };
 testnumber("1-800-440-7788")
+
+
+function testsite(email) {
+    var mines = /[.](?=com)/
+    var format = email.match(mines);
+    return true|false;
+};
+testsite(".com");
+//End of Lib
